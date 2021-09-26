@@ -172,31 +172,31 @@ let previousDate = (date) => {
 };
 
 let nextPalindromeDate = (date) => {
-  let count = 0;
+  let nextcount = 0;
   let incrementDate = nextDate(date);
   while (1) {
-    count++;
+    nextcount++;
     let dateCheck = datePalindromeCheck(incrementDate);
     if (dateCheck) {
       break;
     }
     incrementDate = nextDate(incrementDate);
   }
-  return [count, incrementDate];
+  return [nextcount, incrementDate];
 };
 
 let previousPalidromeDate = (date) => {
-  let count = 0;
+  let prevcount = 0;
   let decrementDate = previousDate(date);
   while (1) {
-    count++;
+    prevcount++;
     let dateCheck = datePalindromeCheck(decrementDate);
     if (dateCheck) {
       break;
     }
     decrementDate = previousDate(decrementDate);
   }
-  return [count, decrementDate];
+  return [prevcount, decrementDate];
 };
 
 let bday = {

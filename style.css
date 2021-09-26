@@ -21,5 +21,10 @@ input {
 
 button {
   height: 2rem;
-  width: 10%;
+  width: 8%;
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
 }
