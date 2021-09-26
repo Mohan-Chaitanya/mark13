@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  font-weight: 2px;
+  font-style: italic;
+  background-color: antiquewhite;
+}
+
+label {
+  font-weight: 8px;
+}
+input {
+  border: 1px solid black;
+  font-style: italic;
+  height: 2rem;
+  width: 15%;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 500;
+  font-size: larger;
+}
+
+button {
+  height: 2rem;
+  width: 10%;
+}
